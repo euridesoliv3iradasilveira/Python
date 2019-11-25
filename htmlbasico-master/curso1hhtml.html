@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Curso HTML 1h - Jornada do Dev</title>
+
+        <h1>Alguma bobagem que eu me esqueci</h1>
+            <style>
+                .div-texto{
+                    background-color:palevioletred;
+                    border-radius:20%;
+                    width:200px;
+                    height:100px;
+                    padding:20px;
+                    color: #FFF;
+                    font-family: Arial;
+                }
+            </style>
+    </head>
+
+    <body>
+
+        <div class = "div-texto">
+            Até que tá bom  
+        </div>
+
+        <h1>Modos de escrita:</h1>
+        <h3>Título:</h3>
+        <p>Exemplo de Título</p>
+        <h3>Negrito:</h3>
+        <b>Exemplo de Negrito</b>
+        <h3>Itálico:</h3>
+        <i>Exemplo de Itálico</i>
+
+        <h1>Chamando outras páginas</h1>
+        <a href="formulariocompleto.html" >Ir para exemplo de formulário </a>
+
+        <h2>Link para o curso: </h2>
+        <a href = "https://jornadadodev.com.br/cursos/aprenda-html-em-1-hora">
+            <img width = "200px" src ="fotocurso.jpg" />
+        </a>
+
+         <!--codificação-->
+         <meta charset = "utf-8">
+
+         <!--titulo-->
+         <title>Site-Formulário</title>
+ 
+         <!--css-->
+         <link rel = "stylesheet" href="meuscript.css">
+ 
+         <!--javascript-->
+         <script src = "meuscript.js"></script>
+
+        <h1>Checkboxes e Radio Buttons</h1>
+            <div>
+                <p>Cursos</p>
+                <label for = "curso1"><input name = "curso" value = "j" type = "checkbox" > Ciência da computação </label>
+                <label for = "curso2"><input name = "curso" value = "k" type = "checkbox" > Sistemas de informação </label>
+                <label for = "curso3"><input name = "curso" value = "l" type = "checkbox" > Engenharia de computação </label>
+                <label for = "curso4"><input name = "curso" value = "m" type = "checkbox" > Engenharia de software </label>
+                <label for = "curso5"><input name = "curso" value = "n" type = "checkbox" > Análise e desenvolvimento de sistemas </label>
+                <label for = "curso5"><input name = "curso" value = "n" type = "checkbox" > Sistemas para internet </label>
+            
+            </div>
+            
+            <div>
+                <p>Tipo de vaga</p>
+                    <label for = "tipo1"><input name = "tipo" value = "r" type = "radio" > Estágio </label>
+                    <label for = "tipo2"><input name = "tipo" value = "s" type = "radio" > CLT </label>
+            </div>       
+                
+        <h1>Dropdown List:</h1>
+
+            <select required class = "" name = "cidade">
+                    <option selected value = "">Selecione sua cidade</option>
+                    <option value = "poa">Porto Alegre</option>
+                    <option value = "fln">Florianopolis</option>
+                    <option value = "sp">São Paulo</option>
+                    <option value = "rj">Rio de Janeiro</option>
+            </select>
+
+        <h1>Inserir arquivos:</h1>
+            
+            <form enctype = "multipart/form-data" action = "" ></form>
+            <input name = "" id = "" class = "" required = "" type = "file">
+
+        <H1>Botões:</H1>
+
+            <form action = "" method = "get">
+            <label for = ""> campo</label>
+            <input  name = "campo" type = "text">
+   
+            <button name = "botao" class = "btn "value = "1" type = "submit">Salvar informações</button>
+   
+            </form>
+
+        <h1>Tabelas:</h1>
+
+            <table width = "400px"  cellspacing = "10" cellpadding = "10" border = "1">
+
+                    <!--cabeçalho-->
+                    <thread>
+                        <!--linhas-->
+                        <tr>
+                            <!--colunas-->
+                           <td>Nome</td> 
+                           <td>Sobrenome</td>
+                           <td colspan = "2"> Email e Telefone</td>
+                        </tr>
+                    </thread>
+        
+                    <!--corpo-->
+                    <tbody>
+                        <!--linhas-->
+                        <tr>
+                                <!--colunas-->
+                               <td>Ana</td> 
+                               <td>Silva</td>
+                               <td>anasilva@gmail.com</td>
+                               <td>5199887766</td>
+                            </tr>
+
+                        <tr>
+                                <!--colunas-->
+                                <td>Alison</td> 
+                                <td>montserrat</td>
+                                <td>ali_montserrat@gmail.com</td>
+                                <td>512784776</td>
+                                </tr>
+
+                    </tbody>
+        
+            </table>
+
+         <!--Listas-->
+         <h1> Listas</h1>
+
+
+         <!--Listas não ordenadas-->
+         <ul>
+             <li>Carros</li>
+             <li>Motos</li>
+             <li>caminhões</li>
+         </ul>
+ 
+         <!--Listas ordenadas-->
+         <ol>
+                 <li>Carros</li>
+                 <li>Motos</li>
+                 <li>caminhões</li>
+         </ol>
+ 
+         
+
+    </body>
+</html>
